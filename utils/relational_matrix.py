@@ -17,5 +17,4 @@ if __name__ == '__main__':
         [2, 1, 4],
         [3, 4, 1]
     ]
-    print(is_symmetric(matrix1))
-    print(is_symmetric(matrix2))
+    print(is_symmetric(matrix1),is_symmetric(matrix2))
