@@ -8,12 +8,12 @@ def is_symmetric(matrix):
     return True
 
 if __name__ == '__main__':
-    matrix1 = list[
+    matrix1 = [
         [1, 0, 0],
         [1, 1, 1],
         [1, 0, 0]
     ]
-    matrix2 = list[
+    matrix2 = [
         [1, 1, 0],
         [1, 1, 1],
         [0, 1, 1]
