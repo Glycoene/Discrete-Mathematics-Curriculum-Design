@@ -1,4 +1,5 @@
 def get_powerset(any_set: list):
+    any_set = set(any_set)
     length = len(any_set)
     result = list()
 
@@ -11,4 +12,4 @@ def get_powerset(any_set: list):
     return result
 
 if __name__ == '__main__':
-    print(get_powerset([1, 2, 3]))
+    print(get_powerset([1, 2, 2, 3]))
